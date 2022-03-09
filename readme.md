@@ -40,3 +40,9 @@ Para que você seja um bom desenvolvedor(a) de sistemas, é necessário que voc�
 A partir daqui vamos avançar um pouco mais o aprendizado de Lógica de Programação com JavaScript.
 
 ### Capitulo 3: Condição
+
+* As condições são utilizadas para validar alguma ação, ou seja, se verdadeira executa uma ação e se falso executa outra.
+* As condições são definidas a partir do uso dos operadores relacionais (==, !=, >, <, >=, <=) e cada condição deve retornar um valor lógico (verdadeiro ou falso).
+* if - else e swicth - case são estruturais condicionais usadas para definir cndições em JavaScript.
+* Para que uma condição seja definida a partir de duas ou mais comparações, é necessário utilizar os operadores lógicos (!, &&, ||).
+* É possível usar mais de uma função no mesmo script.
