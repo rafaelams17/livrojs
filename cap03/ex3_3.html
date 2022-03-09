@@ -1,0 +1,24 @@
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+<script>
+  var bairro = prompt("Bairro de Entrega:");
+  var taxaEntrega;
+
+  switch(bairro){ // escolhe a condição a ser executada
+      case "Centro":
+          taxaEntrega = 5.00;
+      break;
+      case "Fragata": // mesmos valores
+      case "Três Vendas":
+          taxaEntrega = 7.00;
+      break;
+      case "Laranjal":
+          taxaEntrega = 10.00;
+      break;
+      default:
+          taxaEntrega = 8.00;
+      break;
+  }
+
+  alert("Taxa R$: " + taxaEntrega.toFixed(2));
+</script>

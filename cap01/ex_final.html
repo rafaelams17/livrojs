@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<script>
+    var data = new Date();
+    var ano = data.getFullYear();
+
+    /* Criar um projeto basico usando o que foi ensinado até agora no Capitulo 1
+    alert()
+    prompt()
+    variavel 
+    constante
+    comentários => documentação
+    tipos de dados
+        number(números em geral)
+        string(caracteres e sequência de caracteres)
+        boolean(true ou false)
+    converter os tipos de dados
+
+    -> Entrada: prompt()
+    -> Processamento: variavel/constantes
+    -> Saída: alert()
+    */
+
+    alert("Cadastro de Devs"); //informação para o usuario
+
+    //entradas e processamento de dados
+    const ID = Number(prompt("ID: "));
+    var nome = prompt("Nome Completo: ");
+    var anoNascimento = Number(prompt("Ano de Nascimento: "));
+    var idade = ano - anoNascimento;
+    var sexo = prompt("Sexo: ");
+    var cidade = prompt("Cidade: ");
+    var telefone = prompt("Telefone (com DDD): ");
+
+    //saída de dados
+    alert("Dev cadastrado com sucesso, obrigada!\nConfira seus dados abaixo!");
+
+    alert("ID: " + ID + "\nNome: " + nome + "\nIdade: " + idade + "\nSexo: " + sexo + "\nCidade: " + cidade + "\nTelefone: " + telefone);
+</script>

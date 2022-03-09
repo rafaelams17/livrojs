@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<script>
+    //ler o dado de entrada
+    var preco = Number(prompt("Preço R$: "));
+    var opPag = Number(prompt("[1] À vista [2] 3x no Cartão"));
+    var total = 0;
+    
+    //calcula preço de um produto e exibe o resultado
+    if(opPag == 1){
+        total = preco - (preco * 0.10);
+        alert("À vista R$: " + total);
+    }else if(opPag == 2){
+        total = preco / 3;
+        alert("Ou 3x de R$: " + total);
+    }else{
+        alert("[ERROR] Valor Inválido!");
+    }
+
+</script>
